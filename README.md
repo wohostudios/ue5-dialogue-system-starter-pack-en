@@ -12,11 +12,11 @@ Build sequential conversations, display dialogue on screen, and trigger gameplay
 
 ## Documentation
 
-1. [Installation & quick start](docs/01-instalacion.md)
-2. [Creating conversations & Data Tables](docs/02-conversaciones.md)
-3. [Gameplay events using Blueprint Interfaces](docs/03-eventos.md)
-4. [Free vs Full and upgrading](docs/04-migracion-full.md)
-5. [FAQ & troubleshooting](docs/05-problemas-frecuentes.md)
+1. [Installation & quick start](docs/01-installation.md)
+2. [Creating conversations & Data Tables](docs/02-conversations.md)
+3. [Gameplay events using Blueprint Interfaces](docs/03-events.md)
+4. [Free vs Full and upgrading](docs/04-upgrading-to-full.md)
+5. [FAQ & troubleshooting](docs/05-troubleshooting.md)
 
 ## Free Edition Features
 
@@ -29,7 +29,7 @@ Build sequential conversations, display dialogue on screen, and trigger gameplay
 - Gameplay events using `BPI_DialogueEvents` and `TriggerEvent`.
 - A data structure designed for upgrading to the Full edition.
 
-The component is designed to integrate with common Unreal Engine templates, including First Person and Third Person. Input setup and integration may vary depending on the template; see the [installation guide](docs/01-instalacion.md).
+The component is designed to integrate with common Unreal Engine templates, including First Person and Third Person. Input setup and integration may vary depending on the template; see the [installation guide](docs/01-installation.md).
 
 ## Your First Conversation in Three Steps
 
@@ -66,7 +66,7 @@ This example starts a conversation automatically when the level begins. In a gam
 | English/Spanish localization | — | ✅ |
 | Per-line configurable skipping (`AllowSkip`) | — | ✅ |
 
-**Important:** `ST_DialogueLine` contains fields used by the Full edition even when their functionality is unavailable in Free. These fields are retained for compatibility. See the [field reference](docs/02-conversaciones.md).
+**Important:** `ST_DialogueLine` contains fields used by the Full edition even when their functionality is unavailable in Free. These fields are retained for compatibility. See the [field reference](docs/02-conversations.md).
 
 ### When Should You Upgrade?
 
